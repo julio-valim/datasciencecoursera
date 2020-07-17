@@ -1,7 +1,3 @@
-##    _________________________________________
-
-##   Getting and Cleaning Data - Coursera Project
-##    _________________________________________
 
 ### General infomations
 Tidy dataset built from train and tests handled data.
@@ -27,7 +23,7 @@ For each record in the dataset it is provided:
 - An identifier of the subject who carried out the experiment.
 
 ### Data features
-Mean and standart deviation was calculated for sixty six features, and six activity labels were applied for data:
+Mean and standard deviation was calculated for sixty six features, and six activity labels were applied for data:
 - LAYING
 - SITTING
 - STANDING

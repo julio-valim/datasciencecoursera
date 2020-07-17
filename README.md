@@ -1,8 +1,3 @@
-##    _________________________________________
-
-##   Getting and Cleaning Data - Coursera Project
-####    _________________________________________
-
 
 ## Data files
 The data file is available in the UC Irvine Machine Learning repository. To download it click [here](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip "Clicking will download the data").
@@ -25,10 +20,13 @@ The data file is available in the UC Irvine Machine Learning repository. To down
 - From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 
-## [Script](https://github.com/julio-valim/datasciencecoursera/blob/master/GetCleanData.R) steps
+## Script steps
 After set installing packages and loading required libraries, we set working directory, download and unpack data files.
 Then into processing code, we get labels and features from activity_labels file and create a data table with instances labels.
 So we create a data table of instances features from features text file.
 With features on hand, we extracts the mean and standard deviation measurements.
 The next step is mount train and test data tables with features, build train dataset, build test dataset.
 Finally, to get the tidy dataset, we merge both train and test datasets by row, convert label to activity name and melt subject num and activity.
+
+
+You can check script click [here](https://github.com/julio-valim/datasciencecoursera/blob/master/GetCleanData.R) .
