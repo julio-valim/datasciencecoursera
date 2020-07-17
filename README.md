@@ -30,4 +30,4 @@ The next step is mount train and test data tables with features, build train dat
 Finally, to get the tidy dataset, we merge both train and test datasets by row, convert label to activity name and melt subject num and activity.
 
 
-You can check script click [here](https://github.com/julio-valim/datasciencecoursera/blob/master/GetCleanData.R) .
+You can check script click [here](https://github.com/julio-valim/datasciencecoursera/blob/master/run_analysis.R) .
