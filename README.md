@@ -1,3 +1,4 @@
+# Getting and Cleaning Data
 
 ## Data files
 The data file is available in the UC Irvine Machine Learning repository. To download it click [here](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip "Clicking will download the data").
